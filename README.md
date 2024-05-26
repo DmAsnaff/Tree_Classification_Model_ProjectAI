@@ -1,6 +1,13 @@
-# Tree Species Classification in University Garden
+# Tree Species Classification in Rajarata University Garden
 
 This repository contains the implementation and documentation for a project aimed at developing a neural network to classify three tree species found in a university garden: Millettia pinnata (Pongamia/Indian Beech), Bougainvillea glabra, and Ficus benjamina L. The project involves collecting physical measurements from these trees and using the data to train and test a neural network model.
+
+#Group Details
+
+
+
+
+
 
 ### Table of Contents
 
