@@ -1,0 +1,6 @@
+length, width, angle, label 
+
+
+0 = Millettia Pinnata (Pongamia/Indian Beech)
+1 = Bougainvillea glabra
+2 = Ficus benjamina L.
