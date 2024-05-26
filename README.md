@@ -4,57 +4,66 @@ This repository contains the implementation and documentation for a project aime
 
 #Group Details
 
-
-
+Team Name: Project AI
+Team members :
+- AM Akhlak (Team Lead)
+- P.P. Dissanayaka
+- M Asnaff
 
 
 
 ### Table of Contents
 
-- [Project Overview](#project-overview)
-- [Objectives](#objectives)
-- [Methodology](#methodology)
-- [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Introduction](#Introduction)
+- [Overview of Selected Species](#Overview-of-Selected-Species)
+- [Dataset Preparation](#Dataset-Preparation)
+- [Details on the Training and Testing Datasets](#Details-on-the-Training-and-Testing-Datasets)
+- [Architecture of the proposed Model](#Architecture-of-the-proposed-Model)
+- [Training](#Training)
+- [Hyper Parameters](#Hyper-Parameters)
+- [Quantitative and Qualitative presentation](#Quantitative-and-Qualitative-presentation)
+- [Highlighting both strength and limitations](#Highlighting-both-strength-and-limitations)
+- [Summary of key Findings and their Implications](#Summary-of-key-Findings-and-their-Implications)
 
-### Project Overview
+### Introduction
 
 This project addresses the challenge of visually distinguishing between three similar tree species by using a neural network to classify them based on physical measurements.
 
-### Objectives
+### Overview of Selected Species
 
-- To accurately classify Millettia pinnata, Bougainvillea glabra, and Ficus benjamina L. using a neural network.
-- To collect and prepare a comprehensive dataset of physical measurements from the university garden.
-- To design and train a neural network model using this dataset.
+The project focuses on three tree species found in the university garden: Millettia pinnata, Bougainvillea glabra, and Ficus benjamina L. These species are visually similar, making them challenging to distinguish through observation alone.
 
-### Methodology
+
+#### Millettia pinnata Leaves
+![Leaf Measurements](Tree_Species/Millettia pinnata.jpeg)
+
+#### Bougainvillea glabra Leaves
+![Branch Measurements](Tree_Species/Bougainvillea glabra Choisy.jpg)
+
+#### Ficus benjamina L. Leaves
+![Tree Height Measurement](Tree_Species/ages/Ficus benjamina L..jpg)
+
+
+### Dataset Preparation
 
 The methodology involves several key steps:
 
 1. **Field Survey**: Collecting physical measurements from the selected tree species.
-2. **Dataset Preparation**: Organizing the collected data and applying data augmentation techniques.
-3. **Model Training**: Developing and training a neural network to classify the tree species.
-4. **Evaluation**: Testing the model's performance on a separate test dataset.
+2. **Selection of Sampling Sites**: The sites within the university garden where each of the three tree species is found.
+3. **Identification and Tagging**: Trees were initially identified by our basic knowledge (for some trees there were QR codes
+found in our university context) to ensure correct species identification.
+4. **Measurement Protocols**: Leaf Length (cm): Distance from the base to the tip of the leaf.
+Leaf Width (cm): Maximum width of the leaf.
+Leaf Angle that constructs between leaf base and its petiole (Degree)
+5. **Data Recording**: All measurements were manually recorded in a field notebook and later transferred to an
+electronic spreadsheet for analysis.
 
-### Dataset
+### Details on the Training and Testing Datasets
 
 The dataset comprises measurements of leaf length, leaf width, leaf area, branch length, branch diameter, tree height, and trunk diameter. Below are some sample images representing the measured attributes:
 
-#### Sample Leaf Measurements
-![Leaf Measurements](images/leaf_measurements.jpg)
 
-#### Sample Branch Measurements
-![Branch Measurements](images/branch_measurements.jpg)
-
-#### Sample Tree Height Measurement
-![Tree Height Measurement](images/tree_height_measurement.jpg)
-
-### Model Architecture
+### Architecture of the proposed Model
 
 The neural network architecture includes:
 
@@ -64,17 +73,24 @@ The neural network architecture includes:
 
 ![Model Architecture](images/model_architecture.png)
 
-### Results
+### Training
 
 The trained neural network achieved high accuracy in classifying the three tree species. The results indicate the model's robustness and its potential application in ecological studies.
 
 ![Results](images/results.png)
 
-### Conclusion
+### Hyper Parameters
 
 This project successfully demonstrates the use of a neural network to classify tree species based on physical measurements. The developed model can aid in ecological research and biodiversity conservation.
 
-### Usage
+### Quantitative and Qualitative presentation
+
+### Highlighting both strength and limitations
+
+### Summary of key Findings and their Implications
+
+
+
 
 To use this repository, follow these steps:
 
