@@ -6,9 +6,9 @@ This repository contains the implementation and documentation for a project aime
 
 Team Name: Project AI
 Team members :
-- AM Akhlak (Team Lead)
+- A.M. Akhlak Hussain(Team Lead)
 - P.P. Dissanayaka
-- M Asnaff
+- D.M. Asnaff
 
 
 
