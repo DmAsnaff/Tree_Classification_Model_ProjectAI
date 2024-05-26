@@ -35,13 +35,13 @@ The project focuses on three tree species found in the university garden: Millet
 
 
 #### Millettia pinnata Leaves
-![Leaf Measurements](Tree_Species/Millettia pinnata.jpeg)
+![Millettia pinnata Leaves](Tree_Species/Millettia pinnata.jpeg)
 
 #### Bougainvillea glabra Leaves
-![Branch Measurements](Tree_Species/Bougainvillea glabra Choisy.jpg)
+![Bougainvillea glabra Leaves](Tree_Species/Bougainvillea glabra Choisy.jpg)
 
 #### Ficus benjamina L. Leaves
-![Tree Height Measurement](Tree_Species/ages/Ficus benjamina L..jpg)
+![Ficus benjamina L. Leaves](Tree_Species/ages/Ficus benjamina L..jpg)
 
 
 ### Dataset Preparation
